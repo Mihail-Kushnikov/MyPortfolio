@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+    #p1{
+        transition: 1s; 
+        width: 556px;
+        height: 371px;
+        background: url(images/img7b.jpg) no-repeat;
+         
+    }
+    #p2{
+        position: relative;
+        top: -371px;
+        /* background: url(images/img7b.jpg) no-repeat; */
+        transition: 1s;
+        width: 556px;
+        height: 371px;
+        
+         
+    }
+    
+    </style>
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="p1" class="about__img1"></div>
+    <div id="p2" class="about__img2"></div>
+    
+    
+    <script>
+
+
+
+
+
+    let i=1; var p = 6;
+   function func(){if(++i>p)i=1;
+   setTimeout('pick()', 4000)
+   pick = () =>{
+       if(i%2==0){
+        p2.style.opacity = 1
+        p2.style.background = "url(images/img"+i+"b.jpg) no-repeat";
+        // p2.style.zIndex = i*(-1);
+        setTimeout(function (){
+            p2.style.transition= 1+'s'
+            p2.style.opacity=0},4000)
+    
+        }else{
+        p1.style.opacity = 1
+        p1.style.background = "url(images/img"+i+"b.jpg) no-repeat"
+        // p1.style.zIndex = i*(-1);
+        setTimeout(function(){
+            p1.style.transition= 1+'s'
+            p1.style.opacity=0},4000)
+        
+        
+       }
+   }
+      timerId = setTimeout('func()', 4000);
+   }
+   setTimeout('func()', 4000)   
+   
+
+    </script>
+</body>
+</html>
