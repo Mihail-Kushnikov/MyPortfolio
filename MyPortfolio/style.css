@@ -1,0 +1,908 @@
+
+
+    body{
+        width: 100vw;
+        margin: 0;
+        background:#0D0E1F;
+        font-family: Roboto Slab;
+        color: #ffffff;
+        text-align: center;
+        
+        
+    }
+    
+    .social>a>i {
+        display: block;
+        border: 3px solid white;
+        border-radius: 50%;
+        padding: 10px;
+        width: 38px;
+        height: 38px;
+    }
+
+    .element{
+        white-space: pre;
+    }
+ 
+    /* .social>a>i:hover{
+        border: 3px solid #AE3535;
+        color: #AE3535;
+        box-shadow: 0 0 20px #AE3535;
+        transition: 0.3s
+    } */
+
+    .fa-vk:hover{
+        border: 3px solid #597da3;
+        color: #597da3;
+        box-shadow: 0 0 20px #597da3;
+        transition: 0.3s
+    }
+    .fa-instagram:hover{
+        border: 3px solid #d6249f;
+        background: #d6249f;
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+        box-shadow: 0 0 20px #d6249f;
+        transition: 0.3s
+    }
+
+    .fa-github:hover{
+        border: 3px solid #212121;
+        color: #212121;
+        box-shadow: 0 0 20px #212121;
+        transition: 0.3s
+    }
+    .fa-linkedin:hover{
+        border: 3px solid #3B5998;
+        color: #3B5998;
+        box-shadow: 0 0 20px #3B5998;
+        transition: 0.3s
+    }
+   
+    .social{
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        top: 240px;
+        width: 450px;
+        margin: 0 auto;
+        
+        
+    }
+
+    /* i:hover{
+        color: #AE3535;
+    } */
+
+    i{
+        position: relative;
+        color: #ffffff;
+        border: 10px;
+    }
+
+
+    span {
+        /* display: inline-block; */
+        /* font-size: 45px; */
+        /* line-height: 52px; */
+        position: relative;
+        top: 100px;
+       /* color: rgba(255, 255, 255, 0.806556); */
+        text-align: left;
+        font-family: Roboto;
+        font-size: 30px;
+        line-height: 35px;
+        left: -344px;
+    }
+    
+    strong{
+        font-size: 48px;
+        font-family: Roboto Slab;
+        font-weight: normal;
+        line-height: 63px;
+    }
+    .portfolio {
+        position: relative;
+        margin: 0 auto;
+        width: 1141px;
+        height: 673px;
+        display: grid;
+        grid-template-columns: 361px 361px 361px;
+        grid-template-rows: 322px 322px;
+        grid-gap: 29px;
+        top: 325px;
+       
+    
+    }
+    a {
+        position: relative;
+        top: 498px;
+        font-size: 36px;
+        line-height: 41px;
+        text-decoration: none;
+    }
+    
+    .hi{
+        position: relative;
+        margin: 0;
+        top: 486px;
+    }
+
+
+    
+
+    .portfolio6 {
+       
+        position: relative;
+        perspective: 1000px;
+    }
+    
+    .portfolio6__front{
+        border-radius: 10px;
+        background: url(img/img1.jpg) no-repeat;
+        width: 361px;
+        height: 322px;
+        background-size: cover;
+    }
+    .portfolio6__back {
+        border-radius: 10px;
+        position: relative;
+        background:linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 1.02%, #000000 100%), url(img/img1.jpg) no-repeat;
+        width: 361px;
+        height: 322px;
+        background-size: cover;
+        top: -322px;
+        transform: rotateY(180deg);
+        opacity: 0.72;
+    }
+    .portfolio6__front, .portfolio6__back {
+        transition: 1s;
+        backface-visibility: hidden;
+    }
+    
+    .portfolio6:hover .portfolio6__front{transform: rotateY(180deg);}
+    .portfolio6:hover .portfolio6__back{transform: rotateY(360deg);}
+    
+    .portfolio6__back>a{
+        top: 143px;
+        color: #ffffff;
+    }
+
+
+
+
+    .portfolio2 {
+        position: relative;
+        perspective: 1000px;
+    }
+    
+    .portfolio2__front{
+        border-radius: 10px;
+        background: url(img/img2.jpg) no-repeat;
+        width: 361px;
+        height: 322px;
+        background-size: cover;
+    }
+    .portfolio2__back {
+        border-radius: 10px;
+        position: relative;
+        background:linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 1.02%, #000000 100%), url(img/img2.jpg) no-repeat ;
+        width: 361px;
+        height: 322px;
+        background-size: cover;
+        top: -322px;
+        transform: rotateY(180deg);
+        opacity: 0.72;
+        
+    }
+    .portfolio2__front, .portfolio2__back {
+        transition: 1s;
+        backface-visibility: hidden;
+    }
+    
+    .portfolio2:hover .portfolio2__front{transform: rotateY(180deg);}
+    .portfolio2:hover .portfolio2__back{transform: rotateY(360deg);}
+    
+    .portfolio2__back>a{
+        top: 143px;
+        color: #ffffff;
+    }
+
+
+    .portfolio5 {
+       
+        position: relative;
+        perspective: 1000px;
+    }
+    
+    .portfolio5__front{
+        border-radius: 10px;
+        background: url(img/img1.jpg) no-repeat;
+        width: 361px;
+        height: 322px;
+        background-size: cover;
+    }
+    .portfolio5__back {
+        border-radius: 10px;
+        position: relative;
+        background:linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 1.02%, #000000 100%), url(img/img1.jpg) no-repeat ;
+        width: 361px;
+        height: 322px;
+        background-size: cover;
+        top: -322px;
+        transform: rotateY(180deg);
+        opacity: 0.72;
+    }
+    .portfolio5__front, .portfolio5__back {
+        transition: 1s;
+        backface-visibility: hidden;
+    }
+    
+    .portfolio5:hover .portfolio5__front{transform: rotateY(180deg);}
+    .portfolio5:hover .portfolio5__back{transform: rotateY(360deg);}
+    
+    .portfolio5__back>a{
+        top: 143px;
+        color: #ffffff;
+    }
+
+
+
+    .portfolio3 {
+       
+        position: relative;
+        perspective: 1000px;
+    }
+    
+    .portfolio3__front{
+        border-radius: 10px;
+        background: url(img/img1.jpg) no-repeat;
+        width: 361px;
+        height: 322px;
+        background-size: cover;
+    }
+    .portfolio3__back {
+        border-radius: 10px;
+        position: relative;
+        background:linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 1.02%, #000000 100%), url(img/img1.jpg) no-repeat ;
+        height: 322px;
+        background-size: cover;
+        top: -322px;
+        transform: rotateY(180deg);
+        opacity: 0.72;
+    }
+    .portfolio3__front, .portfolio3__back {
+        transition: 1s;
+        backface-visibility: hidden;
+    }
+    
+    .portfolio3:hover .portfolio3__front{transform: rotateY(180deg);}
+    .portfolio3:hover .portfolio3__back{transform: rotateY(360deg);}
+    
+    .portfolio3__back>a{
+        top: 143px;
+        color: #ffffff;
+    }
+
+
+
+
+
+    .portfolio1 {
+        position: relative;
+        perspective: 1000px;
+    }
+    
+    .portfolio1__front{
+        border-radius: 10px;
+        background: url(img/img3.jpg) no-repeat;
+        width: 361px;
+        height: 322px;
+        background-size: cover;
+    }
+    .portfolio1__back {
+        border-radius: 10px;
+        position: relative;
+        background:linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 1.02%, #000000 100%), url(img/img3.jpg) no-repeat ;
+        width: 361px;
+        height: 322px;
+        background-size: cover;
+        top: -322px;
+        transform: rotateY(180deg);
+        opacity: 0.72;
+    }
+    .portfolio1__front, .portfolio1__back {
+        transition: 1s;
+        backface-visibility: hidden;
+    }
+    
+    .portfolio1:hover .portfolio1__front{transform: rotateY(180deg);}
+    .portfolio1:hover .portfolio1__back{transform: rotateY(360deg);}
+    
+    .portfolio1__back>a{
+        top: 143px;
+        color: #ffffff;
+    }
+    
+
+
+
+    .portfolio4 {
+        position: relative;
+        perspective: 1000px;
+    }
+    
+    .portfolio4__front{
+        border-radius: 10px;
+        background: url(img/img1.jpg) no-repeat;
+        width: 361px;
+        height: 322px;
+        background-size: cover;
+    }
+    .portfolio4__back {
+        border-radius: 10px;
+        position: relative;
+        background:linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 1.02%, #000000 100%), url(img/img1.jpg) no-repeat ;
+        width: 361px;
+        height: 322px;
+        background-size: cover;
+        top: -322px;
+        transform: rotateY(180deg);
+        opacity: 0.72;
+    }
+    .portfolio4__front, .portfolio4__back {
+        transition: 1s;
+        backface-visibility: hidden;
+    }
+    
+    .portfolio4:hover .portfolio4__front{transform: rotateY(180deg);}
+    .portfolio4:hover .portfolio4__back{transform: rotateY(360deg);}
+    
+    .portfolio4__back>a{
+        top: 143px;
+        color: #ffffff;
+    }
+
+    #theme {
+        position: relative;
+        top: 413px;
+    }
+
+
+
+    .portfolio, .hi, .email, .social {animation: fadeIn 4.5s}
+
+    @keyframes fadeIn{
+        0% {opacity: 0;}
+        70%{opacity: 0;}
+        to {opacity: 1;}
+    }
+
+
+@media screen and (max-width: 1440px){
+
+body{
+    width: 100vw;
+    margin: 0;
+    background: #0D0E1F;
+    font-family: Roboto Slab;
+    color: #ffffff;
+    text-align: center;
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 240px;
+    width: 31.25vw;
+    margin: 0 auto;
+}
+
+.social>a>i {
+    display: block;
+    width: 0;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 0.69444vw;
+    width: 2.63888vw;
+    height: 2.38888vw;
+}
+
+span {
+    font-size: 2.083333vw;
+    line-height: 3.61111vw;
+    position: relative;
+    top: 100px;
+    color: rgba(255, 255, 255, 0.806556);
+    left: -23.88888vw;
+    text-align: left
+}
+strong {
+    font-size: 3.333333vw;
+    font-weight: normal;
+    line-height: 4.375vw;
+}
+
+.portfolio {
+    position: relative;
+    margin: 0 auto;
+    width: 79.236vw;
+    height: 46.736vw;
+    display: grid;
+    grid-template-columns: 25.069vw 25.069vw 25.069vw;
+    grid-template-rows: 22.361vw 22.361vw;
+    grid-gap: 29px;
+    top: 325px;
+
+}
+
+a {
+    position: relative;
+    top: 498px;
+    font-size: 2.5vw;
+    line-height: 2.84722vw;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hi{
+    position: relative;
+    margin: 0;
+    top: 486px;
+}
+
+
+.portfolio6 {
+    position: relative;
+    perspective: 1000px;
+}
+
+.portfolio6__front{
+    background: url(img/img1.jpg) no-repeat;
+    width: 25.069vw;
+    height: 22.361vw;
+    background-size: cover;
+}
+.portfolio6__back {
+    position: relative;
+    
+    width: 25.069vw;
+    height: 22.361vw;
+    background-size: cover;
+    top: -22.361vw;
+    transform: rotateY(180deg);
+   
+}
+.portfolio6__front, .portfolio6__back {
+    transition: 1s;
+    backface-visibility: hidden;
+}
+.portfolio6:hover .portfolio6__front{transform: rotateY(180deg);}
+.portfolio6:hover .portfolio6__back{transform: rotateY(360deg);}
+
+.portfolio6__back>a{
+    top: 10vw;
+    color: #ffffff;
+}
+
+
+.portfolio5 {
+    position: relative;
+    perspective: 1000px;
+}
+
+.portfolio5__front{
+    background: url(img/img1.jpg) no-repeat;
+    width: 25.069vw;
+    height: 22.361vw;
+    background-size: cover;
+}
+.portfolio5__back {
+    position: relative;
+
+    width: 25.069vw;
+    height: 22.361vw;
+    background-size: cover;
+    top: -22.361vw;
+    transform: rotateY(180deg);
+ 
+}
+.portfolio5__front, .portfolio5__back {
+    transition: 1s;
+    backface-visibility: hidden;
+}
+.portfolio5:hover .portfolio5__front{transform: rotateY(180deg);}
+.portfolio5:hover .portfolio5__back{transform: rotateY(360deg);}
+
+.portfolio5__back>a{
+    top: 10vw;
+    color: #ffffff;
+}
+
+
+
+.portfolio4 {
+    position: relative;
+    perspective: 1000px;
+}
+
+.portfolio4__front{
+    background: url(img/img1.jpg) no-repeat;
+    width: 25.069vw;
+    height: 22.361vw;
+    background-size: cover;
+}
+.portfolio4__back {
+    position: relative;
+    
+    width: 25.069vw;
+    height: 22.361vw;
+    background-size: cover;
+    top: -22.361vw;
+    transform: rotateY(180deg);
+
+}
+.portfolio4__front, .portfolio4__back {
+    transition: 1s;
+    backface-visibility: hidden;
+}
+.portfolio4:hover .portfolio4__front{transform: rotateY(180deg);}
+.portfolio4:hover .portfolio4__back{transform: rotateY(360deg);}
+
+.portfolio4__back>a{
+    top: 10vw;
+    color: #ffffff;
+}
+
+
+
+
+.portfolio1 {
+    position: relative;
+    perspective: 1000px;
+}
+
+.portfolio1__front{
+    background: url(img/img1.jpg) no-repeat;
+    width: 25.069vw;
+    height: 22.361vw;
+    background-size: cover;
+}
+.portfolio1__back {
+    position: relative;
+    
+    width: 25.069vw;
+    height: 22.361vw;
+    background-size: cover;
+    top: -22.361vw;
+    transform: rotateY(180deg);
+   
+}
+.portfolio1__front, .portfolio1__back {
+    transition: 1s;
+    backface-visibility: hidden;
+}
+.portfolio1:hover .portfolio1__front{transform: rotateY(180deg);}
+.portfolio1:hover .portfolio1__back{transform: rotateY(360deg);}
+
+.portfolio1__back>a{
+    top: 10vw;
+    color: #ffffff;
+}
+
+
+
+
+.portfolio2 {
+    position: relative;
+    perspective: 1000px;
+}
+
+.portfolio2__front{
+    background: url(img/img2.jpg) no-repeat;
+    width: 25.069vw;
+    height: 22.361vw;
+    background-size: cover;
+}
+.portfolio2__back {
+    position: relative;
+
+    width: 25.069vw;
+    height: 22.361vw;
+    background-size: cover;
+    top: -22.361vw;
+    transform: rotateY(180deg);
+  
+}
+.portfolio2__front, .portfolio2__back {
+    transition: 1s;
+    backface-visibility: hidden;
+}
+.portfolio2:hover .portfolio2__front{transform: rotateY(180deg);}
+.portfolio2:hover .portfolio2__back{transform: rotateY(360deg);}
+
+.portfolio2__back>a{
+    top: 10vw;
+    color: #ffffff;
+}
+
+
+.portfolio3 {
+    position: relative;
+    perspective: 1000px;
+}
+
+.portfolio3__front{
+    background: url(img/img1.jpg) no-repeat;
+    width: 25.069vw;
+    height: 22.361vw;
+    background-size: cover;
+}
+.portfolio3__back {
+    position: relative;
+ 
+    width: 25.069vw;
+    height: 22.361vw;
+    background-size: cover;
+    top: -22.361vw;
+    transform: rotateY(180deg);
+
+}
+.portfolio3__front, .portfolio3__back {
+    transition: 1s;
+    backface-visibility: hidden;
+}
+.portfolio1:hover .portfolio3__front{transform: rotateY(180deg);}
+.portfolio1:hover .portfolio3__back{transform: rotateY(360deg);}
+
+.portfolio3__back>a{
+    top: 10vw;
+    color: #ffffff;
+}
+
+
+}
+
+@media screen and (max-width: 700px){
+
+    .portfolio {
+        position: relative;
+        margin: 0 auto;
+        width: 50.138vw;
+        height: 67.083vw;
+        display: grid;
+        grid-template-columns: 25.069vw 25.069vw ;
+        grid-template-rows: 22.361vw 22.361vw 22.361vw;
+        grid-gap: 29px;
+        top: 325px;
+    }
+    .social>a>i {
+        border: 2px solid white;
+    }
+    span{
+        left: -9.11111vw;
+    }
+    }
+
+@media screen and (max-width: 460px){
+
+    .portfolio {
+        position: relative;
+        margin: 0 auto;
+        width: 290px;
+        height: 1548px;
+        display: grid;
+        grid-template-columns: 290px ;
+        grid-template-rows: 258px 258px 258px 258px 258px 258px;
+        grid-row-gap: 15px;
+        top: 240px;
+    }
+    
+    .social{       
+        width: 300px;
+    }
+
+    .social>a>i {
+        display: flex;
+        border: 3px solid white;
+        border-radius: 50%;
+        padding: 0;
+        width: 38px;
+        height: 38px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+
+    span {
+        font-size: 27px;
+        line-height: 31px;
+        position: relative;
+        top: 159px;
+        color: rgba(255, 255, 255, 0.806556);
+        left: 0;
+    }
+    strong{
+        font-size: 33px;
+    }
+    
+    a {
+        position: relative;
+        top: 498px;
+        font-size: 20px;
+        line-height: 23px;
+        text-decoration: none;
+    }
+    
+    .hi{
+        position: relative;
+        margin: 0;
+        top: 486px;
+    }
+    .portfolio1 {
+        position: relative;
+        perspective: 1000px;
+    }
+    
+    .portfolio1__front{
+        background: url(img/img1.jpg) no-repeat;
+        width: 290px;
+        height: 258px;
+        background-size: cover;
+    }
+    .portfolio1__back {
+        position: relative;
+   
+        width: 290px;
+        height: 258px;
+        background-size: cover;
+        top: -258px;
+        transform: rotateY(180deg);
+        
+    }   
+    
+    .portfolio1__back>a{
+        top: 119px;
+        color: #ffffff;
+    }
+
+    .portfolio2 {
+        position: relative;
+        perspective: 1000px;
+    }
+    
+    .portfolio2__front{
+        background: url(img/img2.jpg) no-repeat;
+        width: 290px;
+        height: 258px;
+        background-size: cover;
+    }
+    .portfolio2__back {
+        position: relative;
+    
+        width: 290px;
+        height: 258px;
+        background-size: cover;
+        top: -258px;
+        transform: rotateY(180deg);
+    
+    }   
+    
+    .portfolio2__back>a{
+        top: 119px;
+        color: #ffffff;
+    }
+
+
+    .portfolio3 {
+        position: relative;
+        perspective: 1000px;
+    }
+    
+    .portfolio3__front{
+        background: url(img/img1.jpg) no-repeat;
+        width: 290px;
+        height: 258px;
+        background-size: cover;
+    }
+    .portfolio3__back {
+        position: relative;
+   
+        width: 290px;
+        height: 258px;
+        background-size: cover;
+        top: -258px;
+        transform: rotateY(180deg);
+      
+    }   
+    
+    .portfolio3__back>a{
+        top: 119px;
+        color: #ffffff;
+    }
+
+
+    .portfolio4 {
+        position: relative;
+        perspective: 1000px;
+    }
+    
+    .portfolio4__front{
+        background: url(img/img1.jpg) no-repeat;
+        width: 290px;
+        height: 258px;
+        background-size: cover;
+    }
+    .portfolio4__back {
+        position: relative;
+        
+        width: 290px;
+        height: 258px;
+        background-size: cover;
+        top: -258px;
+        transform: rotateY(180deg);
+        
+    }   
+    
+    .portfolio4__back>a{
+        top: 119px;
+        color: #ffffff;
+    }
+
+
+    .portfolio5 {
+        position: relative;
+        perspective: 1000px;
+    }
+    
+    .portfolio5__front{
+        background: url(img/img1.jpg) no-repeat;
+        width: 290px;
+        height: 258px;
+        background-size: cover;
+    }
+    .portfolio5__back {
+        position: relative;
+  
+        width: 290px;
+        height: 258px;
+        background-size: cover;
+        top: -258px;
+        transform: rotateY(180deg);
+     
+    }   
+    
+    .portfolio5__back>a{
+        top: 119px;
+        color: #ffffff;
+    }
+
+
+    .portfolio6 {
+        position: relative;
+        perspective: 1000px;
+    }
+    
+    .portfolio6__front{
+        background: url(img/img1.jpg) no-repeat;
+        width: 290px;
+        height: 258px;
+        background-size: cover;
+    }
+    .portfolio6__back {
+        position: relative;
+    
+        width: 290px;
+        height: 258px;
+        background-size: cover;
+        top: -258px;
+        transform: rotateY(180deg);
+       
+    }   
+    
+    .portfolio6__back>a{
+        top: 119px;
+        color: #ffffff;
+    }
+    }
