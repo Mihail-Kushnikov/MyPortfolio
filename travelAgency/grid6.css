@@ -1,0 +1,345 @@
+
+:root{
+    --icons-color: #6cc;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* header, div, span{border: 1px solid #ccc} */
+header {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-auto-rows: 80px;
+    grid-gap: 3px;
+    border-bottom: 3px solid #60cfc8;
+
+}
+header div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+header span{
+    padding-right: 20px;
+    font-size: 120%;
+    font-weight: 600;
+}
+.logo img {height: 90%;}
+
+header span:nth-child(1){
+    color: var(--icons-color); 
+    padding-top: 10px;
+}
+header span:nth-child(2){
+    color: #666666;
+}
+
+.tel, .srh {
+    border-left: 1px solid #ccc;
+    
+}
+.srh input {
+    padding-left: 10px;
+    padding-top: 8px;
+    font-style: 14pt;
+    border: 2px solid var(--icons-color);
+    
+}
+.srh button{
+    border: 0;
+    background: white;
+    color:  var(--icons-color);
+}
+
+.openimg {
+    position: fixed;
+    top:0;
+    left:0 ;
+    background: url(images/trv1.jpg) no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    display: none;
+    transition: 1s;
+    
+   
+}
+
+nav{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-auto-rows: 54px;
+    background:  #003334;
+    color: white;
+}
+nav>div{
+    justify-self: center;
+    align-self: center;
+     
+    
+}
+nav>div>a{
+    display: grid;
+    text-decoration: none;
+    color: white;
+  
+   
+}
+
+main{
+    padding-left: 58px;
+}
+video{
+    border-bottom: 1px solid black;
+}
+
+
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-template-rows: minmax(371px, 550px) ;
+    grid-gap: 15px;
+}
+main>p{
+   text-align: center;
+   font-weight: bold;
+}
+
+.about__img1{
+ background: url(images/img3b.jpg) no-repeat;
+ 
+ transition: 1s;
+ widows: 556px;
+ height: 371px;
+
+
+}
+#p2{
+    position: relative;
+    top: -371px;
+    /* background: url(images/img7b.jpg) no-repeat; */
+    background-size: cover;
+    transition: 1s;
+    widows: 556px;
+    height: 371px;
+}
+.about__menu{
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, 1fr);
+    grid-template-rows: auto;  
+    grid-row-gap: 38px;
+    
+}
+.about__menu>button{
+    background: white;
+    color: black;
+    border: 1px solid #cacaca;
+    padding: 12px 15px;
+    text-transform: uppercase;
+    
+}
+
+.about__menu>button:active{
+    background: #339a99;
+    color:white;
+}
+
+.about__menu>button:focus{
+    background: #339a99;
+    color:white;
+}
+.about__menu>button:nth-child(1){
+    grid-column: 1;
+    justify-self: center;
+    align-self: center;
+}
+.about__menu>button:nth-child(2){
+    grid-column: 2;
+    justify-self: center;
+    align-self: center;
+    box-sizing: border-box;
+}
+.about__menu>button:nth-child(3){
+    grid-column: 3;
+    justify-self: center;
+    align-self: center;
+}
+.about__menu>div{
+    grid-column: 1/4;
+   
+}
+
+.about__menu>button:nth-child(5){
+    grid-column: 1/4;
+    justify-self: center;
+    align-self: center;
+}
+
+.ture{
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-rows: repeat(2, 220px);
+    grid-row-gap: 26px;
+    grid-column-gap: 138px;
+    
+}
+.ture__img1{
+    background: url(images/trv1.jpg) no-repeat;
+    background-size: cover;
+    
+}
+.ture__img2{
+    background: url(images/trv2.jpg) no-repeat;
+    background-size: cover;
+}
+.ture__img3{
+    background: url(images/trv3.jpg) no-repeat;
+    background-size: cover;
+}
+.ture__img4{
+    background: url(images/trv4.jpg) no-repeat;
+    background-size: cover;
+}
+.ture__img5{
+    background: url(images/trv5.jpg) no-repeat;
+    background-size: cover;
+}
+.ture__img6{
+    background: url(images/trv6.jpg) no-repeat;
+    background-size: cover;
+}
+
+.ture>div>span{
+    display:grid;
+    justify-content: space-around;
+    position: relative;
+    top: 98px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+.ture>div{
+    border: 9px solid white;
+    box-shadow: 0 0 6px #c3c3c3;
+}
+.hottrw{
+    display: grid;
+    grid-row-gap: 52px;
+    grid-template-columns:repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-rows: repeat(2, auto);
+    /* height: 366px; */
+}
+.hottrw1{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px, 1fr));
+    grid-template-rows: repeat(2, auto);
+    grid-column-gap: 80px;
+    grid-row: 1;
+
+}
+.hottrw2{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px, 1fr) )  ;
+    grid-template-rows: repeat(2, auto);
+    grid-column-gap: 80px;
+    grid-row: 2; 
+}
+.hottrw1__img{
+    background: url(images/htour1.jpg) no-repeat;
+    background-size: cover;
+    height: 366px; 
+    
+}
+.hottrw2__img{
+    background: url(images/htour2.jpg) no-repeat;
+    background-size: cover;
+    height: 366px; 
+}
+.hottrw1__about, .hottrw2__about{
+    display: grid;
+    
+}
+.hottrw1__stars, .hottrw2__stars  {
+    display: grid;
+    grid-template-columns: 10px 10px 10px 10px 10px;
+    grid-template-rows: 10px;
+    grid-column-gap: 3px;
+}
+.hottrw1__star, .hottrw2__star {
+    background: url(images/Fill\ 314.png); 
+}
+.hottrw1__star.active, .hottrw2__star.active {
+    background: url(images/7Rating.png)
+}
+.hottrw1__about>button, .hottrw2__about>button{
+    height: 58px;
+    width: 180px;
+    color: white;
+    background: #339a99;
+    border: 0;
+    font-size: 14px;
+}
+.hottrw1__about>a, .hottrw2__about>a{
+    color: #9e979f;
+    text-decoration: none;
+}
+.hottrw1__about>a:hover, .hottrw2__about>a:hover{
+    color: #9e979f;
+    text-decoration: #9e979f;
+}
+.hottrw1__text, .hottrw2__text{
+    color: #9e979f;
+}
+.team{
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    grid-template-columns: repeat(auto-fit,minmax(240px, 1fr));
+    grid-column-gap: 50px;
+    grid-row-gap: 15px;
+    
+}
+.team>div>img{
+    padding-left: 61px;
+    padding-right: 61px;
+}
+.team>div{
+    border: 1px solid #7f7f7f;
+    padding-top: 35px
+
+}
+.map{
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    top: 50px;  
+    overflow: hidden;  
+}
+@media screen and (max-width:1309px){
+    header div {
+        justify-content: center;
+        display: flex;
+    }
+    .ture{
+        grid-template-rows: repeat(3, 220px)
+    }
+}
+
+@media screen and (max-width: 632px){
+    .about{
+        grid-template-rows: 371px auto; 
+    } 
+   
+}
+@media screen and (max-width: 853px){
+    .ture{
+        grid-template-rows: repeat(6, 220px);  
+    }
+} 
+
+
