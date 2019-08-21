@@ -1,0 +1,71 @@
+.menu{
+    margin: auto;
+    position: relative;
+    width: 375px;
+    height: 665px;
+    background-color:rgba(153, 152, 148, .7);
+    top: -683px;
+    font-family: Helvetica
+    
+    
+}
+
+img{
+    opacity: .8;
+    position: relative;
+    top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.24), 0px 0px 8px rgba(0, 0, 0, 0.12);
+}
+.menu__inp {
+   position: relative;
+   height: 30px;
+   top: 70px;
+    left: 100px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.24), 0px 0px 8px rgba(0, 0, 0, 0.12);
+    padding: 0 5px;
+}
+.menu__start{
+    position: relative;
+    top: 240px;
+    width: 128px;
+    height: 40px;
+    border: 0;
+    left: 0;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.24), 0px 0px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+}
+
+.menu__start:active{
+ box-shadow: none;
+}
+h1{
+    margin: 0 auto;
+    position: relative;
+    top: -174px;
+    left: 0;
+    
+}
+
+.game{
+    margin: auto;
+    width: 375px;
+    height: 665px;
+    background: #AE3535;
+}
+.block{
+    margin: 0;
+    width: 125px;
+    height: 133px;
+    border: 2px solid #0D0E1F;
+    border-radius: 5px;
+    box-sizing: border-box;
+    float: left;
+}
+.block.ball{
+   cursor: pointer;
+    background-image: url(ball.jpg);
+   
+}

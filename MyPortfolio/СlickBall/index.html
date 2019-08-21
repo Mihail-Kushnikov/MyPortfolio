@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="cliball.css">
+    <style>
+        body{
+            margin: 0
+        }
+        .game{
+            width: 375px;
+            height: 665px;
+            background: #00FF7F;
+        }
+        .block{
+            margin: 0;
+            width: 125px;
+            height: 133px;
+            border: 2px solid white;
+            box-sizing: border-box;
+            float: left;
+        }
+        .block.ball{
+           
+            background-image: url(ball.jpg);
+           
+        }
+    
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="game"></div>
+    <strong id="score">You score: 0/10</strong>
+    <div class="menu">
+        <img src="logo.png" >
+        <h1>Click Ball</h1>
+    <!-- <form action="" name="formMenu"> -->
+        <input type="button" value="Start" onclick="start()" class="menu__start">
+    <!-- </form> -->
+    </div>
+<script>
+    
+    s = 0
+    blball = document.querySelector('.block.ball')
+    bl = document.querySelector('.block')
+    game = document.querySelector('.game');
+    p = 1;
+
+    for (i=0;i<15;i++){
+        game.innerHTML += '<div class="block"></div>'
+    }
+    function start(){
+
+        document.querySelector(".menu").remove('menu')
+
+     for(j=0;j<10;j++){ window.setTimeout(function drow(){
+   allBall = document.querySelectorAll(".block")
+        r = Math.floor(Math.random()*15)+0
+       allBall[r].classList.add('ball')
+      // blball.classList.remove('ball')
+       console.log(allBall[r])
+       
+       window.setTimeout( function deleteDrow (){
+        allBall[r].classList.remove('ball') 
+       },600)
+   
+  },1000*(j+1))
+    }
+
+
+    game.onclick = function(event){
+     var  v = 1
+      if( event.target.className=="block ball" ){v = 1+ s++}
+      else v = s+0 ;
+      document.getElementById("score").innerHTML = "You score: "+v+"/"+x+""
+      console.log(v)
+      
+   }
+   
+}
+ 
+</script>
+</body>
+</html>
