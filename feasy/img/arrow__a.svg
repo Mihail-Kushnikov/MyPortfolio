@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="39px" height="39px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="22" cy="22" r="22"></circle>
+        <filter x="-19.3%" y="-17.0%" width="138.6%" height="138.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.246042375   0 0 0 0 0.248147241   0 0 0 0 0.255367772  0 0 0 0.198890953 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="notification_course" transform="translate(-1271.000000, -685.000000)">
+            <g id="Group-3" transform="translate(1276.000000, 689.000000)">
+                <g id="Oval">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use stroke="#FFFFFF" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path d="M22.3432806,25.5969542 L17.2449356,20.0809055 C16.8157907,19.6166011 16.8157907,18.8638148 17.2449356,18.3995104 C17.6740805,17.9352059 18.3698619,17.9352059 18.7990068,18.3995104 L23.1282051,23.0833968 L27.4574035,18.3995104 C27.8865484,17.9352059 28.5823297,17.9352059 29.0114747,18.3995104 C29.4406196,18.8638148 29.4406196,19.6166011 29.0114747,20.0809055 L23.9131296,25.5969542 C23.4796278,26.0659725 22.7767825,26.0659725 22.3432806,25.5969542 L22.3432806,25.5969542 Z" id="Shape" fill="#3F3F41" transform="translate(23.128205, 22.000000) scale(-1, 1) rotate(90.000000) translate(-23.128205, -22.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
