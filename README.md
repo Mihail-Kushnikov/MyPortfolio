@@ -10,7 +10,7 @@ Feasy             | The ability to layout without adaptation of a large project 
 
                                            
 
-
-Animation         |
-+PriceSlider      | Showing the ability to use JavaScript in projects.
-+GalleryCarousel  |
+--------------------------------------Animation ----------------------------------------
+PriceSlider      & 
+GalleryCarousel  
+----------------------------------------------------------------------------------------
