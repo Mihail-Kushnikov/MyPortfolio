@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,600i&display=swap&subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="videoplayer.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Travel Agency</title>
 </head>
 <body>
@@ -63,11 +64,16 @@
             <div id="p2" class="about__img2"></div>
             </section>
             <div class="about__menu">
-              <button id="id0" onclick="tab(id0, 0)" autofocus>О компании</button>
+              <button id="id0" onclick="tab(id0, 0)" class="colorOn">О компании</button>
               <button id="id1" onclick="tab(id1, 1)">Почему выберают нас</button>
               <button id="id2" onclick="tab(id2, 2)">Наша Миссия</button>
-              <div class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ullam rem culpa aliquam, sunt consequatur suscipit blanditiis nobis ipsam laudantium optio earum vel recusandae, aperiam beatae. Recusandae officiis accusamus dolorum tempora explicabo non nemo quaerat officia eius impedit sint unde blanditiis placeat dolorem aperiam voluptatibus quibusdam, nostrum libero dolor ad deleniti! Neque repellendus qui delectus perspiciatis cupiditate tempore amet velit, non consequatur nam temporibus natus deleniti autem voluptate officiis! Sunt.</div>
-              <button>Наша команда</button>
+              <div class="about__text" id="txt">Мы - команда профессионалов в туризме с опытом работы более 10 
+                лет и опытом личных путешествий более чем в 45 странах мира. Офис компании 
+                в Акапулько стал третьим офисом сети наряду с офисами, открытыми ранее в 
+                Афинах и Лондоне. Мы знаем об отдыхе практически все, продолжая совершенствовать свои знания 
+                каждый год. Мы много путешествуем и открываем новые страны и маршруты, чтобы 
+                предложить их Вам.</div>
+              <button><a href="#teams" id="lnk">Наша команда</a></button>
             </div>
         </div>
         <p id="trw">Наши туры</p>
@@ -143,7 +149,7 @@
         </div>
     </main>    
         <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2350.3239322120858!2d27.547407598345!3d53.90821943453574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sby!4v1565813292559!5m2!1sru!2sby" width="2000" height="600" frameborder="0" style="border:0" allowfullscreen></iframe></div>
-    
+        <div id="upward"><div id="arr"><a href="#top"><i class="material-icons">arrow_upward</i></a></div></div>
     <footer></footer>
     <script src="script.js"></script>
     <div class="openimg"></div>

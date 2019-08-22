@@ -2,7 +2,9 @@
 :root{
     --icons-color: #6cc;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0;
     padding: 0;
@@ -132,6 +134,7 @@ main>p{
     grid-template-columns: repeat(auto-fit, 1fr);
     grid-template-rows: auto;  
     grid-row-gap: 38px;
+    transition: 0.3s;
     
 }
 .about__menu>button{
@@ -140,10 +143,33 @@ main>p{
     border: 1px solid #cacaca;
     padding: 12px 15px;
     text-transform: uppercase;
+    cursor: pointer;
     
 }
+.about__menu>.colorOn{
+    background: #339a99;
+    color:white;
+}
+.about__menu>.colorOn:hover{
+    background: #339a99;
+    color:white;
+}
+.about__menu>button>a{
+    text-decoration: none;
+    color: black;
+}
+.about__menu>button>a:hover{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.about__menu>button:hover{
+    background: #339a99;
+    color:white;
+    transition: 0.3s
+}
 
-.about__menu>button:active{
+/* .about__menu>button:active{
     background: #339a99;
     color:white;
 }
@@ -151,7 +177,7 @@ main>p{
 .about__menu>button:focus{
     background: #339a99;
     color:white;
-}
+} */
 .about__menu>button:nth-child(1){
     grid-column: 1;
     justify-self: center;
@@ -187,6 +213,11 @@ main>p{
     grid-row-gap: 26px;
     grid-column-gap: 138px;
     
+}
+.ture>div:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+    filter: brightness(70%);    
 }
 .ture__img1{
     background: url(images/trv1.jpg) no-repeat;
@@ -319,6 +350,23 @@ main>p{
     position: relative;
     top: 50px;  
     overflow: hidden;  
+}
+#upward {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    display: none;
+}
+#arr{
+    border: 1px solid black;
+}
+#upward>#arr>a{
+    text-decoration: none;
+    color: black;
+}
+#arr>a>i{
+    padding: 10px 10px;
+    font-size: 26px;
 }
 @media screen and (max-width:1309px){
     header div {
